@@ -1,0 +1,79 @@
+.tweet-container {
+  background-color: #eceff4;
+  width: 700px;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid rgba(0,0,0,.15);
+}
+
+.tweet__content-text {
+  text-align: left;
+}
+
+.tweet__main {
+  padding: 8px;
+  width: 100%;
+}
+
+.tweet__content {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.tweet__avatar-container > img {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.tweet__main-handle {
+  display: flex;
+  width: 100%;
+}
+
+.tweet__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-handle__name {
+  display: flex;
+  flex: 1;
+}
+
+.main-handle__name > * {
+  padding-right: 6px;
+}
+
+.handle__name {
+  font-weight: bold;
+  color:rgb(19, 16, 34);
+}
+
+.handle__nick-name {
+  font-style: italic;
+  color: rgb(77, 77, 77)
+}
+
+.tweet__info-text {
+  display: flex;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.tweet-info-container {
+  display: flex;
+  margin: 16px;
+}
+
+.tweet-info__label {
+  color:rgb(128, 120, 120);
+  padding-right: 8px;
+}
+
+.tweet-info__count {
+  font-weight: 700;
+  font-style: bold;
+}
